@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background-color: darkblue;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.backGround {
+  width: 33%;
+  height: auto;
+  padding: 40px 40px;
+  background-color: green;
+  margin: 20% 20%;
+}
+.titleBackGround {
+  display: flex;
+  justify-content: center;
+}
+.inputSection {
+  display: flex;
+  justify-content: center;
+}
+.inputToDo {
+  margin: 0px 10px;
+  padding: 12px 35px;
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 30%;
+}
+.inputButton {
+  cursor: pointer;
+  margin: 5px 0px;
+  padding: 2px 8px;
+  color: white;
+  background-color: darkblue;
+  border: 2px solid darkblue;
+  border-radius: 30%;
+}
+.contentBackGround {
+  display: flex;
+  flex-direction: column;
+}
+.todoListBox {
+  margin-top: 20px;
+}
