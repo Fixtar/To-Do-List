@@ -7,20 +7,18 @@
     <link href="style.css" rel="stylesheet" />
     <title>ToDoList</title>
   </head>
-  <script src="src.js"></script>
+
   <body>
     <div class="backGround">
       <h1 class="titleBackGround">ToDoList</h1>
       <section class="contentBackGround">
-        <div class="inputSection">
-          <input type="text" class="inputToDo" />
-          <button type="submit" class="inputButton">등록</button>
+        <div id="inputSection">
+          <input type="text" id="inputToDo" placeholder="할일을 입력하세요" />
+          <button type="submit" class="Buttons" id="inputButton">등록</button>
         </div>
-        <div class="todoListBox">
-          <li>1</li>
-          <li>2</li>
-        </div>
+        <ul id="todoListBox"></ul>
       </section>
     </div>
   </body>
+  <script src="src.js"></script>
 </html>
